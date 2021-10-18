@@ -1,0 +1,36 @@
+/*.round-card-container {*/
+/*    margin-bottom: 5em;*/
+/*}*/
+
+.round-card-svg {
+    position: relative;
+}
+
+.round-card-img {
+    position: relative;
+    bottom: 10.5em;
+    left: 4.5em;
+}
+
+.sizeImage {
+    width: 6em;
+}
+
+.round-card-decoration {
+    position: relative;
+    top: 12.2em;
+    left: 4.2em;
+    z-index: 1;
+}
+
+.round-card-logo-container {
+    max-width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.round-card-text-container {
+    text-align: center;
+    margin-inline: auto;
+    max-width: min(70%, 20em);
+}

@@ -1,0 +1,42 @@
+.headerLogoContainer {
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar {
+    height: 2em;
+    width: 10em;
+    border: 1px solid rgba(45, 45, 45, 0.51);
+    border-radius: 25px;
+}
+
+.searchContainer > label {
+    position: relative;
+}
+
+.searchContainer > label:before {
+    content: "";
+    position: absolute;
+    right: 0.5em;
+    top: 0.4em;
+    bottom: 0;
+    width: 20px;
+    background: url("./search-icon.svg") no-repeat;
+}
+
+@media (min-width: 40em) {
+    .headerContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .searchBar {
+        width: 20em;
+    }
+}

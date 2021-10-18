@@ -1,0 +1,33 @@
+.video-container {
+    margin-top: 3em;
+}
+
+.video-container h5 {
+    margin: 0;
+}
+
+.thumbnail-container {
+    background-color: white;
+    height: 10em;
+    width: 17.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.video-text-container {
+    margin-top: 0.5em;
+}
+
+@media (min-width: 40em) {
+    .video-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1em;
+    }
+
+    .thumbnail-container {
+        margin: 0;
+    }
+}

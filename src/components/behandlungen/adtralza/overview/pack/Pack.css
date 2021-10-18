@@ -1,0 +1,16 @@
+.packImg {
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 40em) {
+    .pack-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pack-text-container {
+        margin-block: auto;
+        align-items: center;
+    }
+}

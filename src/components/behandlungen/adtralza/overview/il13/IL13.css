@@ -1,0 +1,23 @@
+.il13-button {
+    width: fit-content;
+    padding: 0.5em;
+    margin: 2em 1em 1em 0em;
+    border-radius: 5em;
+}
+
+.il13-button > h3 {
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 65em) {
+    .il13-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 2em;
+    }
+
+    .il13-image-container {
+        align-self: center;
+    }
+}

@@ -1,0 +1,91 @@
+:root {
+    --clr-primary-blue: #00609C;
+    --clr-primary-grey: #EEEEEE;
+    --clr-primary-purple: #C017A2;
+
+    --clr-secondary-grey: #E6E7E8;
+
+    --clr-secondary-blue: #05172B;
+}
+
+/*Styling for white background:*/
+.bg-white {
+    background-color: white;
+    color: var(--clr-primary-blue);
+}
+
+.bg-white p {
+    color: black;
+}
+
+.bg-white a {
+    color: var(--clr-primary-purple);
+}
+
+/*Styling for lightgrey background:*/
+.bg-lightgrey {
+    background-color: var(--clr-primary-grey);
+    color: var(--clr-primary-blue);
+}
+
+.bg-lightgrey p, .bg-lightgrey li {
+    color: black;
+}
+
+/*Stuling for blue background*/
+.bg-blue {
+    background-color: var(--clr-primary-blue);
+    color: white;
+}
+
+/*Styling for grey background*/
+.bg-grey {
+    background-color: var(--clr-secondary-grey);
+    color: var(--clr-primary-blue);
+}
+
+.bg-grey p {
+    color: black;
+}
+
+/*Styling for dark blue background*/
+.bg-darkblue {
+    background-color: var(--clr-secondary-blue);
+    color: white;
+}
+
+/*Styling for background purple*/
+.bg-purple {
+    background-color: var(--clr-primary-purple);
+    color: white;
+}
+
+/*General styling*/
+.container {
+    margin-inline: auto;
+    max-width: min(80%, 70em);
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.container-small {
+    padding: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}

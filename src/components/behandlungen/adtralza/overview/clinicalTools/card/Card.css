@@ -1,0 +1,7 @@
+.purple {
+    color: var(--clr-primary-purple);
+}
+
+.card-container {
+    max-width: 32em;
+}
