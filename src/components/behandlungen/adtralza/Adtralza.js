@@ -4,6 +4,7 @@ import Overview from "./overview/Overview";
 const Adtralza = () => {
     return (
         <div>
+            {/*// yet another path here. path = overview. Complete path = /behandlungen/adtralza/overview*/}
             <Overview/>
         </div>
     );

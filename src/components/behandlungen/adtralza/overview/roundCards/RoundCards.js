@@ -2,7 +2,7 @@ import React from 'react';
 import RoundCard from "./roundCard/RoundCard";
 import './RoundCards.css';
 
-// pack this into json
+// preferably fetched as json. hardcoded for simplicity.
 let card1Headline = 'Long term sustained improvement';
 let card1Text = '9 out of 10 respondents experienced sustained disease control in clinical trials 10, providing sustained improvements in the burden of disease(1,2, 1, 8*†‡). '
 let card1ButtonText = 'See efficacy and trial data';
@@ -18,9 +18,9 @@ let card3Text = 'The overall frequency and severity of adverse events with Adtra
 let card3ButtonText = 'See safety profile ';
 let card3ImgUrl = '/images/handWithAcceptance.svg';
 
-const childProps =
+const cards =
     {
-        props: [{
+        children: [{
             headline: card1Headline,
             text: card1Text,
             buttonText: card1ButtonText,
@@ -42,7 +42,7 @@ const RoundCards = () => {
     return (
         <div className='container'>
             <div className='round-cards-container'>
-                {childProps.props.map(item => <RoundCard {...item} />)}
+                {cards.children.map(item => <RoundCard key={item.headline} {...item} />)}
             </div>
         </div>
     );

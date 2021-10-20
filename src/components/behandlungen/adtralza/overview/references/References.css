@@ -8,6 +8,6 @@
     gap: 2em;
 }
 
-@media (min-width: 40em) {
-
+.reference-drop-down:hover {
+    cursor: pointer;
 }

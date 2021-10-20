@@ -1,6 +1,6 @@
 import './App.css';
 import Main from "./components/main/Main";
-import './GeneralVariables.css';
+import './GlobalStyle.css';
 
 function App() {
     return (

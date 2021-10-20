@@ -20,6 +20,10 @@
     margin-top: 0.5em;
 }
 
+.thumbnail-container:hover {
+    cursor: pointer;
+}
+
 @media (min-width: 40em) {
     .video-container {
         display: grid;

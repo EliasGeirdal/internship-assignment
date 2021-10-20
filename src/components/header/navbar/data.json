@@ -1,0 +1,99 @@
+{
+  "name": "root",
+  "children": [
+    {
+      "name": "Bedingungen",
+      "url": "/bedingungen"
+    },
+    {
+      "name": "Behandlungen",
+      "children": [
+        {
+          "name": "Adtralza",
+          "children": [
+            {
+              "name": "Overview",
+              "url": "/overview"
+            },
+            {
+              "name": "Mode of Action",
+              "url": "/modeofaction"
+            },
+            {
+              "name": "Efficacy",
+              "url": "/efficacy"
+            },
+            {
+              "name": "Quality of Life",
+              "url": "/qualityoflife"
+            },
+            {
+              "name": "Safety",
+              "url": "/safety"
+            },
+            {
+              "name": "Dosing",
+              "url": "/dosing"
+            },
+            {
+              "name": "News",
+              "url": "/news"
+            },
+            {
+              "name": "Technical Information",
+              "url": "/technicalinformation"
+            }
+          ]
+        },
+        {
+          "name": "Diavonex",
+          "url": "/diavonex"
+        },
+        {
+          "name": "Diavobet",
+          "url": "/diavobet"
+        },
+        {
+          "name": "Enstilar",
+          "url": "/enstilar"
+        },
+        {
+          "name": "Fucidin",
+          "url": "/fucidin"
+        },
+        {
+          "name": "Kyntheum",
+          "url": "/kyntheum"
+        },
+        {
+          "name": "Protopic",
+          "url": "/protopic"
+        },
+        {
+          "name": "Skinoren",
+          "url": "/skinoren"
+        },
+        {
+          "name": "Tralokinumab",
+          "url": "/tralokinumab"
+        },
+        {
+          "name": "Xamiol",
+          "url": "/xamiol"
+        }
+      ]
+    },
+    {
+      "name": "Veranstaltungen",
+      "url": "/veranstaltungen"
+    },
+    {
+      "name": "Werkzeuge",
+      "url": "/werkzeuge"
+    },
+    {
+      "name": "Forschung und Erkenntnisse",
+      "url": "/forschungunderkenntnisse"
+    }
+  ]
+}

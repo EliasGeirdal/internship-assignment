@@ -19,25 +19,25 @@ const RoundCard = (props) => {
                     <defs>
                         <linearGradient id="paint0_linear_1:733" x1="143.416" y1="29.773" x2="33.1495" y2="24.6323"
                                         gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#97CAEB"/>
-                            <stop offset="0.0667423" stop-color="#97CAEB"/>
-                            <stop offset="0.1774" stop-color="#7CB7DD"/>
-                            <stop offset="0.4178" stop-color="#4791C1"/>
-                            <stop offset="0.6263" stop-color="#2076AD"/>
-                            <stop offset="0.7924" stop-color="#0966A0"/>
-                            <stop offset="0.8953" stop-color="#00609C"/>
-                            <stop offset="1" stop-color="#00609C"/>
+                            <stop stopColor="#97CAEB"/>
+                            <stop offset="0.0667423" stopColor="#97CAEB"/>
+                            <stop offset="0.1774" stopColor="#7CB7DD"/>
+                            <stop offset="0.4178" stopColor="#4791C1"/>
+                            <stop offset="0.6263" stopColor="#2076AD"/>
+                            <stop offset="0.7924" stopColor="#0966A0"/>
+                            <stop offset="0.8953" stopColor="#00609C"/>
+                            <stop offset="1" stopColor="#00609C"/>
                         </linearGradient>
                         <linearGradient id="paint1_linear_1:733" x1="-65.3835" y1="37.8365" x2="111.971" y2="37.8365"
                                         gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#97CAEB"/>
-                            <stop offset="0.2666" stop-color="#97CAEB"/>
-                            <stop offset="0.3397" stop-color="#7CB7DD"/>
-                            <stop offset="0.4986" stop-color="#4791C1"/>
-                            <stop offset="0.6363" stop-color="#2076AD"/>
-                            <stop offset="0.7461" stop-color="#0966A0"/>
-                            <stop offset="0.8141" stop-color="#00609C"/>
-                            <stop offset="1" stop-color="#00609C"/>
+                            <stop stopColor="#97CAEB"/>
+                            <stop offset="0.2666" stopColor="#97CAEB"/>
+                            <stop offset="0.3397" stopColor="#7CB7DD"/>
+                            <stop offset="0.4986" stopColor="#4791C1"/>
+                            <stop offset="0.6363" stopColor="#2076AD"/>
+                            <stop offset="0.7461" stopColor="#0966A0"/>
+                            <stop offset="0.8141" stopColor="#00609C"/>
+                            <stop offset="1" stopColor="#00609C"/>
                         </linearGradient>
                     </defs>
                 </svg>
@@ -48,7 +48,7 @@ const RoundCard = (props) => {
                     </g>
                     <defs>
                         <filter id="filter0_d_1:730" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse"
-                                color-interpolation-filters="sRGB">
+                                colorInterpolationFilters="sRGB">
                             <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                             <feColorMatrix in="SourceAlpha" type="matrix"
                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -66,7 +66,7 @@ const RoundCard = (props) => {
                         y="50%"
                         height="100"
                         width="100"
-                        transform="translate(-43,-50)"
+                        transform="translate(-50,-60)"
                         // height="250"
                         href={props.img}/>
                 </svg>

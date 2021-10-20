@@ -30,7 +30,7 @@
     background: url("./search-icon.svg") no-repeat;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 60em) {
     .headerContainer {
         display: flex;
         justify-content: space-between;
@@ -38,5 +38,10 @@
 
     .searchBar {
         width: 20em;
+    }
+
+    header.container {
+        padding-bottom: 0;
+
     }
 }

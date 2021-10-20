@@ -6,8 +6,7 @@ const Pack = () => {
         <div className='container'>
             <div className='pack-container'>
                 <div className='adtralza-pack-container'>
-                    <img src="/images/adtralza-pack.png" alt="adtralza pack" className='packImg'/>
-                    {/*<img src="/images/adtralza-pack_shadow.png" alt="adtralza shadow" className='packShadow'/>*/}
+                    <img src="/images/adtralza-pack-with-shadow.png" alt="adtralza pack" className='packImg'/>
                 </div>
                 <div className='pack-text-container'>
                     <h3 className='blue'>It is the first and only biologic developed to specifically neutralize IL-13, a

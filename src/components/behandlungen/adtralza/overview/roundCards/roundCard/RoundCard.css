@@ -1,15 +1,5 @@
-/*.round-card-container {*/
-/*    margin-bottom: 5em;*/
-/*}*/
-
 .round-card-svg {
     position: relative;
-}
-
-.round-card-img {
-    position: relative;
-    bottom: 10.5em;
-    left: 4.5em;
 }
 
 .sizeImage {
@@ -33,4 +23,8 @@
     text-align: center;
     margin-inline: auto;
     max-width: min(70%, 20em);
+}
+
+.round-card-text-container a:hover {
+    cursor: pointer;
 }

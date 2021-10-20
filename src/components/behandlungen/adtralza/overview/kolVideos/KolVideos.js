@@ -27,7 +27,7 @@ const KolVideos = () => {
             <h3>KOL Videos - get expert insights here</h3>
             <p>See what Key opinion leaders have to say about their experiences with Adtralza® </p>
             <div className='kol-video-container'>
-                {videos.map(item => <Video {...item} />)}
+                {videos.map(item => <Video key={Math.random()} {...item} />)}
             </div>
         </div>
     );

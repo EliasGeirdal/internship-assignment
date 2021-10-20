@@ -19,7 +19,7 @@ const ClinicalTools = () => {
         <div className='container'>
             <h3>Clinical tools - at a glance</h3>
             <div className='ct-card-container'>
-                {cards.map(item => <Card {...item} />)}
+                {cards.map(item => <Card key={item.headline} {...item} />)}
             </div>
         </div>
     );

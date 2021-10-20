@@ -1,6 +1,7 @@
 import React from 'react';
 import './IL13.css';
 
+// hardcoded for simplicity.
 let headline = 'Adtralza® neutralizes IL-13, a key driver of Atopic Dermatitis signs and symptoms.';
 let paragraph1 = 'By specifically targeting the IL-13 cytokine, Adtralza® inhibits the interaction with type II receptors and prevents IL-13-induced inflammatory responses in the skin(1,2).';
 let paragraph2 = 'Adtralza® selectively modulates the dysregulated immune system by(1):';
@@ -12,11 +13,11 @@ const Il13 = () => {
         <div className='container'>
             <div className='il13-container'>
                 <div>
-                    <h3>{headline}</h3>
+                    <h2>{headline}</h2>
                     <p>{paragraph1}</p>
                     <p>{paragraph2}</p>
                     <ul>
-                        {bulletpoints.map(item => <li>{item}</li>)}
+                        {bulletpoints.map(item => <li key={item}>{item}</li>)}
                     </ul>
                     <div className='bg-purple il13-button'>
                         <h3>{buttonText}</h3>

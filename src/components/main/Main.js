@@ -7,6 +7,8 @@ const Main = () => {
     return (
         <div>
             <Header/>
+            {/*insert router switch here*/}
+            {/*path = /behandlungen*/}
             <Behandlungen/>
             <Footer/>
         </div>

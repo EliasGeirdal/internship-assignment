@@ -5,7 +5,7 @@
     padding-bottom: 2em;
 }
 
-@media (min-width: 55em) {
+@media (min-width: 65em) {
     .cover-container {
         background-color: var(--clr-secondary-blue);
         display: flex;
